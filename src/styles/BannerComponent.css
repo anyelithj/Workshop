@@ -1,0 +1,36 @@
+.banner__body{
+     width: 90vw;
+     margin: 5% ;
+     border: none;
+}
+
+.banner__img {
+    width: 100%;
+}
+.banner__title {
+    width: 90%;
+    text-align: center;
+    font-size: 180%;
+    margin-top: 6%;
+    color: white;
+    font-weight: 600;
+   
+}
+
+@media (max-width: 375px) {
+    .banner__body{
+        margin: 5%;   
+   }
+
+   .banner__img {
+    height: 20vh;
+    }
+    
+    .banner__title {
+    font-size: 100%;
+    }
+}
+
+@media (max-width: 540px) {
+    
+}
